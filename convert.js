@@ -33,6 +33,9 @@ function convertBin2Dec(number) {
 function convertDec2Bin(number) {
     let result = '1';
     let digits = []
+    if (number == 0) {
+        result = 0
+    }
     while(number >= 2) {
         let digit = number % 2
         digits.push(digit)
