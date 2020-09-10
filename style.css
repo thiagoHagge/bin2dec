@@ -15,16 +15,13 @@ body {
     
 }
 
-body, input  {
-    
+body {
     color: black;
-    
 }
 
 input {
     margin: 1rem auto;
-    display: block;
-    width: 70vw;
+    width: 70%;
     height: 90px;
     border-radius: 20px;
     margin-top: 2rem;
@@ -32,6 +29,10 @@ input {
     font-size: 2rem;
     padding-left: 20px;
 
+}
+#input-box {
+    display: block;
+    text-align: center;
 }
 #container {
     width: 90vw;
@@ -67,13 +68,13 @@ p{
     
 }
 
-@media (min-width: 900px) {
+@media (min-device-width: 700px) {
     input {
         width: 20.5rem;
         font-size: 1.5rem;
     }
     #input-box {
-        display: flex;
+        display: inline;
     }
     #bin {
         margin-right: 1rem;
